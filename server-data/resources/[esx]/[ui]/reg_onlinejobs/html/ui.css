@@ -1,0 +1,91 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    margin: 0;
+    padding: 0;
+}
+
+body,html { width: 100%; height: 100%;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+                              
+
+}
+
+body { /*background: url('https://i.imgur.com/MoYBh1e.jpg') center center no-repeat; background-size: cover;*/ }
+
+#ui { position: relative; width: 100%; height: 100%; overflow: hidden; color: #FFF; }
+
+.icon { display: block; position: relative; padding: 10px 8px; margin: 10px 5px 0 5px; width: 30px; height: 30px; border-radius: 100px; overflow: hidden; background: rgba(0,0,0,0.35); }
+
+.icon i { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: #FFF; z-index: 11; font-size: 15px; }
+.icon img { width: 16px; margin: -3px 0 0 0; }
+.icon span { display: block; position: absolute; left: 50%; bottom: 0; transform: translate(-50%,0); width: 100%; height: 100%; }
+
+.icon.text { display: inline-block; overflow: visible; width: auto; padding: 0; }
+.icon.text i { display: inline-block; float: left; transform: translate(0%,0%); left: 0; top: 0; position: relative; padding: 10px 8px; width: 30px; height: 30px; border-radius: 100px; color: #FFF; }
+.icon.text i:before { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+.icon.text span { position: relative; width: auto; height: auto; left: 0; transform: translate(0,0); display: inline-block; font-size: 12px; padding: 7px 15px 0 10px; font-weight: 700; color: #FFF; }
+
+
+
+.info { position: absolute; }
+
+.info.onlinejobs { bottom: 1.0vw; left: 16.0vw; text-align: right;}
+.info.onlinejobs #jobs div[id] { float: left; } 
+
+.info.onlinejobs #jobs { clear: both; }
+
+.info.onlinejobs #jobs #count { clear: both; }
+.info.onlinejobs #jobs #police { clear: both; }
+/*  */
+.info.onlinejobs #jobs #ems { clear: both; }
+/*  */
+.info.onlinejobs #jobs #taxi { clear: both; }
+
+.info.onlinejobs #jobs #playerID i { background: linear-gradient(180deg, #c70a0a 0%, #960505 100%); }
+.info.onlinejobs #jobs #count i { background: linear-gradient(180deg, #18b70b 0%, #128c08 100%); }
+.info.onlinejobs #jobs #police i { background: linear-gradient(180deg, #4548FF 0%, #0004ff 100%); }
+.info.onlinejobs #jobs #guardiacivil i { background: linear-gradient(180deg, #18b70b 0%, #128c08 100%); }
+.info.onlinejobs #jobs #ems i { background: linear-gradient(180deg, #c70a0a 0%, #960505 100%); }
+.info.onlinejobs #jobs #mechanic i { background: linear-gradient(180deg, #b647ff 0%, #9900ff 100%); }
+.info.onlinejobs #jobs #taxi i { background: linear-gradient(180deg, #ffb700 0%, #e0a102 100%); }
+
+.filauno {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0.3vw;
+    left: 14.33vw;
+    color: white;
+    font-size: 0.5vw;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700
+}
+
+/* #ems {
+    width: 16px;
+    height: 16px;
+    background-image: url("img/pd2.png");
+} */

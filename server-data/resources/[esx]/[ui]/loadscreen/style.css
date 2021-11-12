@@ -1,0 +1,50 @@
+#intro {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.loadbar {
+    width: 100%;
+    background-color: #eee;
+    height: 20px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.progressBar {
+    width: 10%;
+    background-color: #FC0349;
+    height: 20px;
+
+    position: absolute;
+    left: 10%;
+}

@@ -1,0 +1,9 @@
+Locales['es'] = {
+  -- regulars
+  	['duty'] = 'Pulsa ~INPUT_CONTEXT~ para ~g~entrar~s~/~r~salir~s~ de servicio',
+	['onduty'] = 'Has entrado en servicio.',
+	['offduty'] = 'Has salido de servicio.',
+	['notpol'] = 'No eres polic�a.',
+	['notgc'] = 'No eres guardia civil.',
+	['notamb'] = 'No eres EMS.',
+}

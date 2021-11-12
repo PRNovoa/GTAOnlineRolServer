@@ -1,0 +1,45 @@
+{
+  "global": {
+    "serverName": "BlacklistRP",
+    "language": "es"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [
+      "00:00",
+      "12:00"
+    ],
+    "heartBeat": {
+      "failThreshold": 15,
+      "failLimit": 30
+    },
+    "healthCheck": {
+      "failThreshold": 15,
+      "failLimit": 300
+    }
+  },
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "No tienes la Whitelist echa en este servidor.\nPara hacer la Whitelist unete a https://discord.gg/4JNqaHA.\nNo te preocupes la Whitelist no va por Discord simplemente es para hacerte el examen.\n<strong>Your ID: <id></strong>",
+    "wipePendingWLOnStart": false
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": true,
+    "token": "NzI3NTI0OTEzMTExNDk4Nzc3.XvtGbA.DD3C_woA41lAF6n4xyVgVG1M-MI",
+    "announceChannel": "723233267137904691",
+    "statusCommand": "/status",
+    "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "serverDataPath": "C:/Servers/Titanes-RP/server-data/",
+    "cfgPath": "C:/Servers/Titanes-RP/server-data/server.cfg",
+    "commandLine": "",
+    "onesync": true,
+    "autostart": false,
+    "quiet": false
+  }
+}

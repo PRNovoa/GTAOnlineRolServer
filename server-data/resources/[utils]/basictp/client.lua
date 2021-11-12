@@ -1,0 +1,6 @@
+RegisterCommand("tp", function(source, args)
+    local x = tonumber(args[1])
+    local y = tonumber(args[2])
+    local z = tonumber(args[3])
+    SetEntityCoords(PlayerPedId(), x, y, z, false, false, false, true)
+end, true)

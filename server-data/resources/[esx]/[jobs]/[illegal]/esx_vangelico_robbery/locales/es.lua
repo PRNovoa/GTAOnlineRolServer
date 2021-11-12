@@ -1,0 +1,36 @@
+Locales['es'] = {
+
+	['robbery_cancelled'] = '¡El robo ha sido cancelado!',
+	['shop_robbery'] = 'Joyería',
+	['press_to_rob'] = 'Dispara para iniciar el robo',
+	['seconds_remaining'] = '~w~ segundos restantes',
+	['robbery_cancelled_at'] = '~r~El robo ha sido cancelado en: ~b~',
+	['robbery_has_cancelled'] = '~r~El robo ha sido cancelado: ~b~',
+	['already_robbed'] = 'La joyería ya ha sido robada. Espere: ',
+	['seconds'] = 'segundos'.
+	['rob_in_prog'] = '~r~Robo en curso en: ~b~',
+	['started_to_rob'] = 'Ha comenzado el robo',
+	['do_not_move'] = ', ¡Coge las joyas de las vitrinas!',
+	['alarm_triggered'] = 'La alarma ha sido activada',
+	['hold_pos'] = 'Cuando hayas recogido todas las joyas, ¡huye!',
+	['robbery_complete'] = '~r~¡El robo ha sido exitoso! ~s~ ~h~ ¡Huye! ',
+	['robbery_complete_at'] = '~r~El robo ha sido exitoso en: ~b~',
+	['min_two_police'] = 'Debe haber al menos ~b~',
+	['min_two_police2'] = ' ~w~policías en la ciudad para robar',
+	['robbery_already'] = '~r~Un robo ya está en progreso',
+	['robbery_has_ended'] = 'Robo terminado',
+	['end'] = '¡Han robado a la joyería!',
+	['notenoughgold'] = '~r~¡No tienes suficientes joyas!',
+	['copsforsell'] = 'debe haber al menos ~b~',
+	['copsforsell2'] = ' ~w~policías en la ciudad para vender.',
+	['goldsell'] = '~s~Venta de ~y~joyas ~s~en progreso',
+	['field'] = 'Presione ~y~E~s~ para ~o~ recoger ~s~ las joyas',
+	['collectinprogress'] = 'Recolección de joyas en progreso...',
+	['lester'] = '~g~¡Has robado a la joyería! ¡Ahora llévale las joyas a ~r~Lester! ',
+	['jewelsblipmap'] = 'Joyas',
+	['press_to_collect'] = 'para recoger joyas',
+	['smash_case'] = 'vitrinas rotas',
+	['press_to_sell'] = 'Presione ~INPUT_PICKUP~ para vender joyas',
+	['need_bag'] = '¡Necesitas la mochila! Ve a la tienda de ropa más cercana.'
+	
+}

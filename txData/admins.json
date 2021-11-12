@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Scorpion08YT",
+    "master": true,
+    "password_hash": "$2a$11$Y9XCDambSAimhQyccNM8VOoakv4Svc9poKn83PgkAzQUBinJT8.Ti",
+    "providers": {
+      "citizenfx": {
+        "id": "Scorpion08YT",
+        "data": {
+          "nameid": "https://forum.cfx.re/internal/user/801457",
+          "name": "Scorpion08YT",
+          "profile": "https://forum.cfx.re/u/Scorpion08YT",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/scorpion08yt/256/440821_2.png",
+          "sub": "4df0eb3732473bda12a38ecbeb96e1b71013fc3895cb3c6a189a6f9fa7246d43"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "BlacklistRP",
+    "master": false,
+    "password_hash": "$2a$11$2e/f1MSDhAzi.et4YPAVyOot395JuP6pmAfFMDFHvvUfX7rxQra.e",
+    "providers": {},
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# *.cfg
+/server
+server-data/cache/
+server-data/resources/\[local\]/
+server-data/resources/\[cars\]/
